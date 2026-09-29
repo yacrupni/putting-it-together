@@ -1,0 +1,2727 @@
+{
+  "updatedAt": "2026-09-29T01:35:18.187430+00:00",
+  "sources": {
+    "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
+    "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
+  },
+  "sourceWeek": [
+    "Mon. September 28",
+    "Tue. September 29",
+    "Wed. September 30",
+    "Thu. October 1",
+    "Fri. October 2",
+    "Sat. October 3",
+    "Sun. October 4"
+  ],
+  "durationMinutes": 180,
+  "shows": [
+    {
+      "id": "juliet",
+      "name": "& Juliet",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "13:00",
+          "18:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Stephen Sondheim Theatre - 124 W. 43nd St. betw. 6th & 7th Aves.",
+      "policies": [
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/25598-and-juliet-on-broadway"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Available on the day of the performance.",
+            "Where": "Stephen Sondheim Theatre box office",
+            "Time": "10 AM Monday - Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Standing Room",
+          "fields": {
+            "Price": "$45",
+            "How": "Available at the box office on the day of the performance only if the show is sold out",
+            "Where": "Stephen Sondheim Theatre box office",
+            "Time": "10 AM Monday - Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Standing positions at the back of the orchestra",
+            "Special Policies": "Subject to availability. Available when the show is sold out."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Standing Room opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aladdin",
+      "name": "Aladdin",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "13:00",
+          "18:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "New Amsterdam Theatre - 214 W. 42nd St. betw. 7th & 8th Aves.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "AladdinTheMusical.com/lottery",
+            "Time": "Lottery opens 9 AM day prior to desired performance. Lottery closes 3 PM day the prior to the performance.",
+            "Payment Method": "Credit card",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office; may be partial view",
+            "Number Of Tickets Available": "Determined at the discretion of the box office",
+            "Special Policies": "Entrants must be 18 years of age or older. Tickets are non-transferable. Tickets must be purchased via credit card within allotted 60-minute window or may be released for general sale. Tickets may be retrieved at the box office 60 minutes before the performance time. Multiple entries for a single performance by a single guest will result in disqualification. See website for full details."
+          },
+          "links": [
+            {
+              "label": "AladdinTheMusical.com/lottery",
+              "url": "https://www.aladdinthemusical.com/lottery"
+            },
+            {
+              "label": "",
+              "url": "https://www.aladdinthemusical.com/lottery"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "09:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-book-of-mormon",
+      "name": "The Book of Mormon",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Eugene O’Neill Theatre - 230 W. 49th St. betw. Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "www.luckyseat.com/shows/thebookofmormon-newyork",
+            "Time": "For weekday performances, entries will be accepted until 9:30 AM ET the day before the performance with winners being selected beginning at 10 AM ET and continuing throughout the day as needed. For weekend performances and Mondays if applicable, entries will be accepted until 9:30 AM ET the Friday before, with winner selection following at 10 AM ET and continuing throughout the day as needed.",
+            "Payment Method": "Credit card online",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Subject to daily availability, may be partial view and pairs may be split up.",
+            "Number Of Lottery Tickets Available": "Determined at the discretion of the box office.",
+            "Special Policies": "Tickets must be purchased by 3 PM the day prior to the performance. Tickets are non-transferable. See website for full details."
+          },
+          "links": [
+            {
+              "label": "www.luckyseat.com/shows/thebookofmormon-newyork",
+              "url": "https://www.luckyseat.com/shows/thebookofmormon-newyork"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "luckyseat",
+              "time": "09:30",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$53",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/127-the-book-of-mormon-on-broadway"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buena-vista-social-club",
+      "name": "Buena Vista Social Club",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Gerald Schoenfeld Theatre - 236 W. 45th St., betw. 7th and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$45",
+            "How": "Available on the day of the performance.",
+            "Where": "Gerald Schoenfeld Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "week": [
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:30",
+          "20:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Ambassador Theatre - 219 W. 49th St. betw. Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "On sale when the box office opens on a first-come, first-served basis",
+            "Where": "Ambassador Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "25",
+            "Special Policies": "Subject to availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Standing Room",
+          "fields": {
+            "Price": "$39",
+            "How": "Available at the box office on the day of the performance only if the show is sold out",
+            "Where": "Ambassador Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Standing positions at the back of the orchestra",
+            "Special Policies": "Subject to availability. Available when the show is sold out."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Standing Room opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-great-gatsby",
+      "name": "The Great Gatsby",
+      "week": [
+        [
+          "19:00"
+        ],
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Broadway Theatre - 1681 Broadway, at 53rd St.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$40",
+            "How": "Available on the day of the performance.",
+            "Where": "Broadway Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Student Rush",
+          "fields": {
+            "Price": "$25",
+            "How": "Available on the day of the performance.",
+            "Where": "Broadway Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "Valid Student ID",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Student Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hadestown",
+      "name": "Hadestown",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Walter Kerr Theatre- 219 West 48th Street, between Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form",
+            "Where": "LuckySeat.com",
+            "Time": "For weekday performances, entries will be accepted until 9:30 AM ET the day before the performance with winners being selected beginning at 10 AM ET and continuing throughout the day as needed. For weekend performances and Mondays if applicable, entries will be accepted until 9:30 AM ET the Friday before, with winner selection following at 10 AM ET and continuing throughout the day as needed.",
+            "Payment Method": "Credit card online",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office. Pairs may be split up.",
+            "Special Policies": "Fans who have been selected will be notified daily via email or SMS message. The lottery will then continue on a rolling basis for every performance of Hadestown. The digital lottery is limited to one entry per person and tickets must be purchased online with a credit card by 3 PM ET the day before the performance. Tickets may be picked up at the Walter Kerr box office (219 West 48th Street) starting two hours prior to the performance with a valid photo ID required. The name on your account must match the name on your photo ID. Winners who require accessible seating or other special accommodations should contact [email protected] for assistance."
+          },
+          "links": [
+            {
+              "label": "LuckySeat.com",
+              "url": "https://www.luckyseat.com/shows/hadestown-newyork"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "luckyseat",
+              "time": "09:30",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "Standing Room",
+          "fields": {
+            "Price": "$39",
+            "How": "Available at the box office on the day of the performance only if the show is sold out",
+            "Where": "Walter Kerr Theatre box office",
+            "Time": "12 PM for matinees, 5 PM for evening performances",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2 per person",
+            "Seat Locations": "Standing positions at the back of the orchestra",
+            "Special Policies": "Subject to availability. Available when the show is sold out."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "performanceType",
+              "matinee": "12:00",
+              "evening": "17:00",
+              "label": "Standing Room opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hamilton",
+      "name": "Hamilton",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Richard Rodgers Theatre - 226 W. 46th St. between Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$10",
+            "How": "Enter a lottery for the upcoming week’s performances.",
+            "Where": "HamiltonMusical.com or download the Hamilton App.",
+            "Time": "Opens Friday at 10 AM ET through the following Thursday at Noon. Winner and non-winner notifications will be sent between 1 PM and 4 PM every Thursday for the following week's performances. Winners will have two hours to claim and pay for their tickets.",
+            "Payment Method": "Credit card online",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Front row orchestra",
+            "Number Of Tickets Available": "A limited number of tickets.",
+            "Special Policies": "Limit one entry per person per performance and each winner can purchase two tickets. Unclaimed tickets will be forfeited and used as the box-office sees fit. Winners must pick up their tickets at the box office with a valid photo ID that matches the name drawn. Seats may be partial view and pairs may be split up."
+          },
+          "links": [
+            {
+              "label": "HamiltonMusical.com",
+              "url": "https://hamiltonmusical.com/new-york/tickets/#lottery"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "weekBefore",
+              "weekday": 4,
+              "time": "10:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "weekBefore",
+              "weekday": 3,
+              "time": "12:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harry-potter-and-the-cursed-child",
+      "name": "Harry Potter and the Cursed Child",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Lyric Theatre - 214 W. 43rd St. between 7th and 8th Aves.",
+      "policies": [
+        {
+          "name": "The Friday Forty",
+          "fields": {
+            "Price": "$40",
+            "How": "Download the TodayTix app to purchase.",
+            "Where": "TodayTix.com",
+            "Time": "Entries accepted from 12:01am each Monday to 1pm each Friday for every performance for the following week.",
+            "Payment Method": "Credit card online",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "determined at the discretion of the box office",
+            "Number Of Tickets Available": "40",
+            "Special Policies": "Winners notified between 1pm and 5pm on Friday and will have one hour to claim tickets from time of notifications."
+          },
+          "links": [
+            {
+              "label": "TodayTix.com",
+              "url": "https://www.todaytix.com/x/nyc/shows/8728-harry-potter-and-the-cursed-child"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "weekBefore",
+              "weekday": 0,
+              "time": "00:01",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "weekBefore",
+              "weekday": 4,
+              "time": "13:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-imaginary-invalid",
+      "name": "The Imaginary Invalid",
+      "week": [
+        [],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Todd Haimes Theatre - 227 W. 42nd St. betw. 7th & 8th Aves.",
+      "policies": [
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$48",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/44369-the-imaginary-invalid"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "just-in-time",
+      "name": "Just in Time",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Circle in the Square Theatre - 235 W. 50th St. betw. Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$40",
+            "How": "On sale when the box office opens on a first-come, first-served basis",
+            "Where": "Circle in the Square Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-lion-king",
+      "name": "The Lion King",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "13:00",
+          "18:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Minskoff Theatre - 1515 Broadway betw. 44th and 45th Sts.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$60",
+            "How": "Submit online form",
+            "Where": "Lottery.BroadwayDirect.com/Show/The-Lion-King",
+            "Time": "Lottery opens 9 AM day prior to desired performance. Lottery closes 3 PM day the prior to the performance.",
+            "Payment Method": "Credit card",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified via email, and have 60 minutes to pay for tickets via credit card. Tickets are non-transferable. After you pay and receive your payment confirmation, you can pick up your tickets at the box office no sooner than 30 minutes before show time with a valid photo ID. See website for full details."
+          },
+          "links": [
+            {
+              "label": "Lottery.BroadwayDirect.com/Show/The-Lion-King",
+              "url": "https://lottery.broadwaydirect.com/show/the-lion-king/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "09:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-lost-boys",
+      "name": "The Lost Boys",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Palace Theatre - 160 W. 47th St., between 6th and 7th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "Submit online form",
+            "Where": "https://lottery.broadwaydirect.com/show/lost-boys/",
+            "Time": "Lottery opens the day before the performance at 7:00AM and closes at 2:00PM the same day. Winners will have 60 minutes to pay for tickets online with a credit card.",
+            "Payment Method": "Credit card",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office. May be partial view."
+          },
+          "links": [
+            {
+              "label": "https://lottery.broadwaydirect.com/show/lost-boys/",
+              "url": "https://lottery.broadwaydirect.com/show/lost-boys/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "07:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "14:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$45",
+            "How": "Available on the day of the performance.",
+            "Where": "Palace Theatre box office",
+            "Time": "10 AM Tuesday-Saturday; noon Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maybe-happy-ending",
+      "name": "Maybe Happy Ending",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ],
+        [
+          "13:00",
+          "18:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Belasco Theatre - 111 W. 44th St., betw. 6th and 7th ave",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$20.64",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Available on the day of the performance.",
+            "Where": "Belasco Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form.",
+            "Where": "https://rush.telecharge.com/",
+            "Time": "11am day of performance",
+            "Payment Method": "Credit card.",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Special Policies": "Subject to availability"
+          },
+          "links": [
+            {
+              "label": "",
+              "url": "https://www.todaytix.com/nyc/shows/36327-make-me-gorgeous"
+            },
+            {
+              "label": "https://rush.telecharge.com/",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "11:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Standing Room",
+          "fields": {
+            "Price": "$49",
+            "How": "Available at the box office on the day of the performance only if the show is sold out",
+            "Where": "Belasco Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Standing positions at the back of the orchestra",
+            "Special Policies": "Subject to availability. Available when the show is sold out."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Standing Room opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mj",
+      "name": "MJ",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Neil Simon Theatre - 250 W. 52nd St., between Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form",
+            "Where": "https://lottery.broadwaydirect.com/show/mj-ny/",
+            "Time": "Lottery opens the day before the performance at 9:00AM and closes at 3:00PM. Winners will have 60 minutes to pay for tickets online with a credit card.",
+            "Payment Method": "Credit card",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office. May be partial view."
+          },
+          "links": [
+            {
+              "label": "https://lottery.broadwaydirect.com/show/mj-ny/",
+              "url": "https://lottery.broadwaydirect.com/show/mj-ny/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "09:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oh-mary",
+      "name": "Oh, Mary!",
+      "week": [
+        [],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "17:00",
+          "20:30"
+        ],
+        [
+          "15:00",
+          "18:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Lyceum Theatre - 149 W. 45th st., between 6th and 7th Aves.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$47",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$43",
+            "How": "Available on the day of the performance.",
+            "Where": "Lyceum Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation-mincemeat",
+      "name": "Operation Mincemeat",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "John Golden Theatre - 252 W. 45th St., betw. 7th and 8th ave",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Available on the day of the performance.",
+            "Where": "John Golden Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-desert-cities",
+      "name": "Other Desert Cities",
+      "week": [
+        [],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "14:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Hudson Theatre - 141 W. 44th St. betw. 7th and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "www.luckyseat.com/shows/otherdesertcities-newyork-2026Sep",
+            "Time": "Entries will be accepted beginning 10:30 AM ET the day before each performance. Winners will be selected beginning at 11 AM ET, with further drawings throughout the day as needed. Winners will be able to purchase up to two tickets, with location subject to availability.",
+            "Payment Method": "Credit card online",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Subject to daily availability, may be partial view and pairs may be split up.",
+            "Number Of Lottery Tickets Available": "Determined at the discretion of the box office."
+          },
+          "links": [
+            {
+              "label": "www.luckyseat.com/shows/otherdesertcities-newyork-2026Sep",
+              "url": "https://www.luckyseat.com/shows/otherdesertcities-newyork-2026Sep"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "10:30",
+              "label": "Lottery opens"
+            }
+          ]
+        },
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/47066-other-desert-cities"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-outsiders",
+      "name": "The Outsiders",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Bernard B. Jacobs Theatre - 242 W. 45th St., between 7th and 8th Aves.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$45",
+            "How": "Available on the day of the performance.",
+            "Where": "Bernard B. Jacobs Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "$30 Under 30",
+          "fields": {
+            "Price": "$30",
+            "How": "Subject to daily availability, the production will make available a limited number of tickets for anyone 30 years of age and under.",
+            "Where": "Bernard B. Jacobs Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "Valid ID",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2 (Guest may be of any age, but ticket buyer must meet age requirement.)",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": []
+        },
+        {
+          "name": "Standing Room",
+          "fields": {
+            "Price": "$39",
+            "How": "Available at the box office on the day of the performance only if the show is sold out",
+            "Where": "Bernard B. Jacobs Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Standing positions at the back of the orchestra",
+            "Special Policies": "Subject to availability. Available when the show is sold out."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Standing Room opens"
+            }
+          ]
+        },
+        {
+          "name": "Ponyboy Seat",
+          "fields": {
+            "Price": "$79",
+            "How": "Available at the box office on the day of the performance.",
+            "Where": "Bernard B. Jacobs Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "1 seat available per performance.",
+            "Special Policies": "A performer utilizes this seat for the first 7 minutes of the performance. During this time, you will watch the show standing at the back of the theatre. After the first 7 minutes, an usher will escort you to your seat in the first row of the orchestra. There is a rain effect on stage. Drops of water and small rubber pieces from the stage floor may land in this seating area."
+          },
+          "links": [],
+          "rules": []
+        }
+      ]
+    },
+    {
+      "id": "paranormal-activity",
+      "name": "Paranormal Activity",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "August Wilson Theatre - 245 W. 52nd St. betw. Broadway & 8th Aves.",
+      "policies": [
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$40",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/46971-paranormal-activity"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-rocky-horror-show",
+      "name": "The Rocky Horror Show",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "15:00",
+          "20:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Studio 54 - 254 W. 54th St., betw. 8th and 9th Aves.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$30",
+            "How": "Submit online form",
+            "Where": "https://www.todaytix.com/nyc/shows/4390",
+            "Time": "The lottery will open at 5PM on the day before the performance and close at 9AM the day of the performance. Winners will be notified and have one hours to claim their tickets through the TodayTix app.",
+            "Payment Method": "Credit card",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office. May be partial view."
+          },
+          "links": [
+            {
+              "label": "https://www.todaytix.com/nyc/shows/4390",
+              "url": "https://www.todaytix.com/nyc/shows/4390"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "17:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": 0,
+              "time": "09:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "Student Rush",
+          "fields": {
+            "Price": "50% off full price.",
+            "How": "Available on the day of the performance.",
+            "Where": "Studio 54 box office",
+            "Time": "1/2 hour prior to curtain",
+            "Id": "Valid Student ID",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 1 per ID",
+            "Seat Locations": "Determined at the discretion of the box office"
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "relative",
+              "minutes": -30,
+              "label": "Student Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schmigadoon",
+      "name": "Schmigadoon!",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Nederlander Theatre - 208 W. 41st St., between 7th and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "Submit online form",
+            "Where": "https://lottery.broadwaydirect.com/schmigadoon-ny",
+            "Time": "Lottery opens the day before the performance at 10:00AM and closes at 2:00PM the same day. Winners will have 60 minutes to pay for tickets online with a credit card.",
+            "Payment Method": "Credit card",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office. May be partial view."
+          },
+          "links": [
+            {
+              "label": "https://lottery.broadwaydirect.com/schmigadoon-ny",
+              "url": "https://lottery.broadwaydirect.com/schmigadoon-ny"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "10:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "14:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$40",
+            "How": "Available on the day of the performance.",
+            "Where": "Nederlander Theatre box office",
+            "Time": "10 AM Tuesday-Saturday; noon Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "school-girls-or-the-african-mean-girls-play",
+      "name": "School Girls; Or, The African Mean Girls Play",
+      "week": [
+        [],
+        [],
+        [
+          "14:00",
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ],
+        [
+          "14:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "OPENING",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Samuel J. Friedman Theatre - 261 W. 47th St. betw. 7th & 8th Aves.",
+      "policies": [
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/46505-school-girls-or-the-african-mean-girls-play"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "six",
+      "name": "Six",
+      "week": [
+        [
+          "19:00"
+        ],
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "15:00",
+          "20:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Lena Horne Theatre - 256 W. 47th Street, between 7th and 8th Aves.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "A limited number of $45 tickets will be sold via a digital lottery.",
+            "Where": "lottery.broadwaydirect.com/show/six-ny/",
+            "Time": "Entries will be accepted starting at 9:00am the day prior to the performance. The cutoff is 6:00pm the day prior to the performance. Winners will be notified by email and have 60 minutes to claim and pay for their tickets online. Lottery tickets are limited to one entry per person and two tickets per winner. Digital tickets will be emailed to winners one hour prior to the performance.",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Determined at the discretion of the box office"
+          },
+          "links": [
+            {
+              "label": "lottery.broadwaydirect.com/show/six-ny/",
+              "url": "https://lottery.broadwaydirect.com/show/six-ny/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "09:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "18:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "Student Rush",
+          "fields": {
+            "Price": "$35",
+            "How": "Available on the day of the performance.",
+            "Where": "Lena Horne Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "Valid Student ID",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Minimum of 6"
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Student Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Standing Room",
+          "fields": {
+            "Price": "$49",
+            "How": "Available at the box office on the day of the performance only if the show is sold out",
+            "Where": "Lena Horne Theatre box office",
+            "Time": "10 AM Monday–Saturday; noon Sunday",
+            "Payment Method": "Cash and credit card",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Standing positions at the back of the orchestra",
+            "Special Policies": "Subject to availability. Available when the show is sold out."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Standing Room opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stranger-things-the-first-shadow",
+      "name": "Stranger Things: The First Shadow",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "",
+      "policies": []
+    },
+    {
+      "id": "two-strangers-carry-a-cake-across-new-york",
+      "name": "Two Strangers (Carry a Cake Across New York)",
+      "week": [
+        [],
+        [
+          "19:30"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "",
+      "policies": []
+    },
+    {
+      "id": "wicked",
+      "name": "Wicked",
+      "week": [
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Gershwin Theatre - 222 W. 51st St. between Broadway and 8th Ave.",
+      "policies": [
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$45",
+            "How": "Available on the day of the performance.",
+            "Where": "Gershwin Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$55",
+            "How": "A limited number of tickets will be sold via a digital lottery. Tickets will be $55 for all performances.",
+            "Where": "https://lottery.broadwaydirect.com/show/wicked/",
+            "Time": "For all performances, the lottery will open the day before at 9am and close the day before at 3PM. Winners will then be notified and will have 1 hour to purchase the tickets by credit card online. The e-ticket will then be emailed to the winner’s email address.",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Determined at the discretion of the box office"
+          },
+          "links": [
+            {
+              "label": "https://lottery.broadwaydirect.com/show/wicked/",
+              "url": "https://lottery.broadwaydirect.com/show/wicked/"
+            },
+            {
+              "label": "wickedthemusical.com",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "website",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "wickedthemusical.com",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "website",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "09:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "Student Tickets",
+          "fields": {
+            "Price": "$59",
+            "How": "Discounted tickets for students available in advance at select performances at certain times of the year.",
+            "Where": "Gershwin Theatre box-office",
+            "Time": "Available dates listed at wickedthemusical.com",
+            "Payment Method": "Cash or Credit Card",
+            "Id": "Valid student ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability.",
+            "Special Policies": "See website for details."
+          },
+          "links": [
+            {
+              "label": "https://lottery.broadwaydirect.com/show/wicked/",
+              "url": "https://lottery.broadwaydirect.com/show/wicked/"
+            },
+            {
+              "label": "wickedthemusical.com",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "website",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "wickedthemusical.com",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "website",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            }
+          ],
+          "rules": []
+        },
+        {
+          "name": "Military Tickets",
+          "fields": {
+            "Price": "$79",
+            "How": "Discounted tickets for active military available in advance at select performances at certain times of the year.",
+            "Where": "Gershwin Theatre box-office",
+            "Time": "Available dates listed at wickedthemusical.com",
+            "Payment Method": "Cash or Credit Card",
+            "Id": "Valid military ID",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability.",
+            "Special Policies": "See website for details."
+          },
+          "links": [
+            {
+              "label": "https://lottery.broadwaydirect.com/show/wicked/",
+              "url": "https://lottery.broadwaydirect.com/show/wicked/"
+            },
+            {
+              "label": "wickedthemusical.com",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "website",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "wickedthemusical.com",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            },
+            {
+              "label": "website",
+              "url": "https://wickedthemusical.com/broadway-faq/"
+            }
+          ],
+          "rules": []
+        }
+      ]
+    }
+  ]
+}
