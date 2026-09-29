@@ -9,6 +9,10 @@ const prettyDate = (d, opts = {}) => new Intl.DateTimeFormat('en-US', {timeZone:
 const prettyTime = t => `${Number(t.slice(0,2)) % 12 || 12}${t.slice(3) === '00' ? '' : ':' + t.slice(3)}${Number(t.slice(0,2)) >= 12 ? 'pm' : 'am'}`;
 const color = id => palette[shows.findIndex(s => s.id === id) % palette.length];
 const isFixed = id => state.confirmed.includes(id);
+function freshState() {
+  const today = new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+  return {screen:'setup',selected:[],priorities:[],confirmed:[],hidden:[],start:today,end:addDays(today,3),after:'',before:'',view:'calendar',group:'day',deadlines:false,free:{}};
+}
 function save() { try {localStorage.setItem('putting-it-together-v1', JSON.stringify(state));} catch {} }
 function dates() { return datesBetween(state.start, state.end); }
 function getEvents() {return performances(shows, dates(), state.selected, state.after, state.before);}
@@ -127,6 +131,17 @@ dialog.addEventListener('click', e => {if (e.target === dialog) dialog.close();}
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-action]'); if (!b || !state) return;
   const {action, id} = b.dataset;
+  if (action === 'start-over') {document.querySelector('#reset-dialog').showModal(); return;}
+  if (action === 'cancel-reset') {document.querySelector('#reset-dialog').close(); return;}
+  if (action === 'reset') {
+    document.querySelector('#reset-dialog').close();
+    if (dialog.open) dialog.close();
+    state = freshState(); allEvents = []; save(); render();
+    window.scrollTo(0, 0);
+    const heading = app.querySelector('h1');
+    if (heading) {heading.tabIndex = -1; heading.focus({preventScroll:true});}
+    return;
+  }
   if (action === 'info') {openDetails(id); return;}
   if (action === 'event') {const item = findEvent(id); if (item) openDetails(item.showId,id); return;}
   if (action === 'star') {
@@ -170,8 +185,7 @@ async function init() {
     const response = await fetch('./data/shows.json', {cache:'no-cache'});
     if (!response.ok) throw new Error('Data could not be loaded');
     data = await response.json(); shows = data.shows; byId = Object.fromEntries(shows.map(s=>[s.id,s]));
-    const today = new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-    state = {screen:'setup',selected:[],priorities:[],confirmed:[],hidden:[],start:today,end:addDays(today,3),after:'',before:'',view:'calendar',group:'day',deadlines:false,free:{}};
+    state = freshState();
     try {
       const stored = JSON.parse(localStorage.getItem('putting-it-together-v1') || 'null');
       if (stored && Array.isArray(stored.selected) && Array.isArray(stored.priorities) && Array.isArray(stored.confirmed) && Array.isArray(stored.hidden)) {
