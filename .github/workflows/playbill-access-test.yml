@@ -1,0 +1,89 @@
+name: Playbill access test
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check Playbill access
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import time
+          import urllib.request
+          import urllib.robotparser
+          from html.parser import HTMLParser
+
+          class VisibleText(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.parts = []
+                  self.skip = 0
+              def handle_starttag(self, tag, attrs):
+                  if tag in ('script', 'style'):
+                      self.skip += 1
+              def handle_endtag(self, tag):
+                  if tag in ('script', 'style'):
+                      self.skip = max(0, self.skip - 1)
+              def handle_data(self, data):
+                  if not self.skip:
+                      self.parts.append(data)
+
+          agent = 'BroadwayPlanningAccessTest/1.0'
+          report = ['# Playbill access test', '',
+                    'This checks technical access only, not permission to reuse content.', '']
+          def get(url):
+              request = urllib.request.Request(url, headers={'User-Agent': agent})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return response.read(4000000).decode('utf-8', errors='replace')
+          def finish():
+              result = '\n'.join(report)
+              print(result)
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+                  output.write(result)
+
+          try:
+              robots = get('https://playbill.com/robots.txt')
+              if not re.search(r'^\s*user-agent\s*:', robots, re.I | re.M):
+                  raise ValueError('No recognizable robots instructions returned')
+              rules = urllib.robotparser.RobotFileParser()
+              rules.parse(robots.splitlines())
+              report.append('Robots instructions: retrieved. They are not a content-use license.')
+          except Exception as error:
+              report.append(f'Robots instructions could not be checked: {error}. Article requests skipped.')
+              finish()
+              raise SystemExit(0)
+
+          pages = [
+              ('Schedule', 'https://playbill.com/article/weekly-schedule-of-current-broadway-shows',
+               ['weekly schedule of current broadway shows', 'wicked', 'hamilton']),
+              ('Ticket policies', 'https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003',
+               ['general rush', 'digital lottery', 'tickets per person']),
+          ]
+          for label, url, markers in pages:
+              if not rules.can_fetch(agent, url):
+                  report.append(f'- {label}: robots instructions disallow this request; skipped.')
+                  continue
+              time.sleep(max(2, rules.crawl_delay(agent) or 0))
+              try:
+                  html = get(url)
+                  parser = VisibleText()
+                  parser.feed(html)
+                  text = ' '.join(' '.join(parser.parts).lower().split())
+                  found = sum(marker in text for marker in markers)
+                  times = len(re.findall(r'\b\d{1,2}(?::\d{2})?\s*(?:am|pm)\b', text))
+                  report.append(f'- {label}: downloaded; {found}/{len(markers)} expected text markers; {times} time mentions.')
+                  report.append('  This is preliminary evidence only; table/rule extraction still needs verification.')
+              except Exception as error:
+                  report.append(f'- {label}: request failed: {error}')
+          report.extend(['', 'A green workflow check means the test finished, not that Playbill access succeeded.',
+                         'No article files were saved or published. No recurring schedule is enabled.'])
+          finish()
+          PY
