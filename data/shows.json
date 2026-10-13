@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T20:19:31.340106+00:00",
+  "updatedAt": "2026-10-13T18:22:22.217896+00:00",
   "sources": {
     "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
     "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
@@ -2631,8 +2631,44 @@
         "",
         ""
       ],
-      "venue": "",
-      "policies": []
+      "venue": "James Earl Jones Theatre - 138 W. 48th St., betw. 6th and 7th ave",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$35",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "wicked",
