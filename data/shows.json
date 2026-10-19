@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-18T14:39:15.730188+00:00",
+  "updatedAt": "2026-10-19T17:33:04.940874+00:00",
   "sources": {
     "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
     "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
   },
   "sourceWeek": [
-    "Mon. October 12",
-    "Tue. October 13",
-    "Wed. October 14",
-    "Thu. October 15",
-    "Fri. October 16",
-    "Sat. October 17",
-    "Sun. October 18"
+    "Mon. October 19",
+    "Tue. October 20",
+    "Wed. October 21",
+    "Thu. October 22",
+    "Fri. October 23",
+    "Sat. October 24",
+    "Sun. October 25"
   ],
   "durationMinutes": 180,
   "shows": [
@@ -542,16 +542,81 @@
       ]
     },
     {
+      "id": "downstate",
+      "name": "Downstate",
+      "week": [
+        [],
+        [],
+        [],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
+        [
+          "13:00",
+          "18:30"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "",
+      "policies": []
+    },
+    {
+      "id": "the-fantasticks",
+      "name": "The Fantasticks",
+      "week": [
+        [],
+        [],
+        [],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "",
+      "policies": []
+    },
+    {
       "id": "a-few-good-men",
       "name": "A Few Good Men",
       "week": [
+        [],
         [
           "20:00"
         ],
         [
-          "20:00"
-        ],
-        [
+          "14:00",
           "20:00"
         ],
         [
@@ -564,7 +629,9 @@
           "14:00",
           "20:00"
         ],
-        []
+        [
+          "15:00"
+        ]
       ],
       "scheduleNotes": [
         "",
@@ -850,7 +917,6 @@
           "19:00"
         ],
         [
-          "13:00",
           "19:00"
         ],
         [
@@ -864,7 +930,8 @@
           "19:00"
         ],
         [
-          "13:00"
+          "13:00",
+          "19:00"
         ]
       ],
       "scheduleNotes": [
@@ -919,10 +986,10 @@
       "id": "harry-potter-and-the-cursed-child",
       "name": "Harry Potter and the Cursed Child",
       "week": [
+        [],
         [
           "19:00"
         ],
-        [],
         [
           "19:00"
         ],
@@ -1001,11 +1068,9 @@
           "14:00",
           "20:00"
         ],
+        [],
         [
-          "20:00"
-        ],
-        [
-          "20:00"
+          "19:00"
         ],
         [
           "14:00",
@@ -1019,7 +1084,7 @@
         "",
         "",
         "",
-        "",
+        "OPENING",
         "",
         "",
         ""
@@ -1334,9 +1399,7 @@
           "14:00",
           "19:00"
         ],
-        [
-          "14:00"
-        ]
+        []
       ],
       "scheduleNotes": [
         "",
@@ -1779,23 +1842,25 @@
       "week": [
         [],
         [
-          "19:30"
+          "19:00"
+        ],
+        [
+          "13:00",
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
         ],
         [
           "14:00",
           "20:00"
         ],
         [
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
-        [
-          "14:00",
-          "20:00"
-        ],
-        []
+          "15:00"
+        ]
       ],
       "scheduleNotes": [
         "",
@@ -1804,7 +1869,7 @@
         "",
         "",
         "",
-        "OPENING"
+        ""
       ],
       "venue": "Hudson Theatre - 141 W. 44th St. betw. 7th and 8th Ave.",
       "policies": [
@@ -2326,7 +2391,7 @@
           "19:00"
         ],
         [
-          "20:00"
+          "19:00"
         ],
         [
           "19:00"
@@ -2567,10 +2632,10 @@
       "id": "two-strangers-carry-a-cake-across-new-york",
       "name": "Two Strangers (Carry a Cake Across New York)",
       "week": [
+        [],
         [
           "19:30"
         ],
-        [],
         [
           "14:00",
           "19:30"
@@ -2606,8 +2671,6 @@
       "name": "Wanted",
       "week": [
         [],
-        [],
-        [],
         [
           "20:00"
         ],
@@ -2615,6 +2678,13 @@
           "20:00"
         ],
         [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
           "20:00"
         ],
         [
