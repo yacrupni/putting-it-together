@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T18:40:57.277279+00:00",
+  "updatedAt": "2026-11-05T18:49:12.914121+00:00",
   "sources": {
     "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
     "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
@@ -1135,8 +1135,97 @@
         "",
         ""
       ],
-      "venue": "",
-      "policies": []
+      "venue": "Ethel Barrymore Theatre - 243 W. 47th St., betw. 7th and 8th ave",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$49",
+            "How": "Submit online form.",
+            "Where": "https://rush.telecharge.com/",
+            "Time": "11am day of performance",
+            "Payment Method": "Credit card.",
+            "Id": "N/A",
+            "Tickets Per Person": "Limit 2",
+            "Special Policies": "Subject to availability"
+          },
+          "links": [
+            {
+              "label": "",
+              "url": "https://www.todaytix.com/nyc/shows/36327-make-me-gorgeous"
+            },
+            {
+              "label": "https://rush.telecharge.com/",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "11:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "Student Tickets",
+          "fields": {
+            "Price": "$10",
+            "How": "Available to enrolled students.",
+            "Where": "Ethel Barrymore Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "Valid student ID",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2"
+          },
+          "links": [],
+          "rules": []
+        }
+      ]
     },
     {
       "id": "the-imaginary-invalid",
