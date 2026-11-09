@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-08T17:07:08.350071+00:00",
+  "updatedAt": "2026-11-09T21:28:28.974762+00:00",
   "sources": {
     "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
     "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
   },
   "sourceWeek": [
-    "Mon. November 2",
-    "Tue. November3",
-    "Wed. November 4",
-    "Thu. November 5",
-    "Fri. November 6",
-    "Sat. November 7",
-    "Sun. November 8"
+    "Mon. November 9",
+    "Tue. November 10",
+    "Wed. November 11",
+    "Thu. November 12",
+    "Fri. November 13",
+    "Sat. November 14",
+    "Sun. November 15"
   ],
   "durationMinutes": 180,
   "shows": [
@@ -156,10 +156,10 @@
       "id": "aladdin",
       "name": "Aladdin",
       "week": [
+        [],
         [
           "19:00"
         ],
-        [],
         [
           "19:00"
         ],
@@ -228,6 +228,39 @@
           ]
         }
       ]
+    },
+    {
+      "id": "blue-man-group",
+      "name": "Blue Man Group",
+      "week": [
+        [],
+        [],
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:00"
+        ],
+        [
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "",
+      "policies": []
     },
     {
       "id": "the-book-of-mormon",
@@ -553,6 +586,7 @@
         ],
         [],
         [
+          "14:00",
           "20:00"
         ],
         [
@@ -562,10 +596,7 @@
           "14:00",
           "20:00"
         ],
-        [
-          "13:00",
-          "18:30"
-        ]
+        []
       ],
       "scheduleNotes": [
         "",
@@ -574,7 +605,7 @@
         "",
         "",
         "",
-        ""
+        "OPENING"
       ],
       "venue": "Booth Theatre - 222 W. 45th St., betw. 7th and 8th Ave.",
       "policies": [
@@ -728,6 +759,108 @@
       ]
     },
     {
+      "id": "galileo",
+      "name": "Galileo",
+      "week": [
+        [],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        []
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Sam S. Shubert Theatre - 225 W. 44th St., betw. 7th and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$45",
+            "How": "Available on the day of the performance.",
+            "Where": "Sam S. Shubert Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "the-great-gatsby",
       "name": "The Great Gatsby",
       "week": [
@@ -870,7 +1003,9 @@
       "name": "Hadestown",
       "week": [
         [],
-        [],
+        [
+          "19:00"
+        ],
         [
           "14:00",
           "19:30"
@@ -886,8 +1021,7 @@
           "19:30"
         ],
         [
-          "14:00",
-          "19:30"
+          "15:00"
         ]
       ],
       "scheduleNotes": [
@@ -1031,10 +1165,10 @@
       "id": "harry-potter-and-the-cursed-child",
       "name": "Harry Potter and the Cursed Child",
       "week": [
+        [],
         [
           "19:00"
         ],
-        [],
         [
           "19:00"
         ],
@@ -1105,18 +1239,17 @@
       "id": "here-there-are-blueberries",
       "name": "Here There Are Blueberries",
       "week": [
-        [
-          "19:30"
-        ],
+        [],
         [],
         [
-          "19:30"
+          "19:00"
         ],
         [
-          "19:30"
+          "13:00",
+          "19:00"
         ],
         [
-          "19:30"
+          "19:00"
         ],
         [
           "14:00",
@@ -1127,7 +1260,7 @@
         ]
       ],
       "scheduleNotes": [
-        "",
+        "OPENING",
         "",
         "",
         "",
@@ -1303,11 +1436,84 @@
       ]
     },
     {
+      "id": "inter-alia",
+      "name": "Inter Alia",
+      "week": [
+        [],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
+        [
+          "13:00",
+          "19:30"
+        ],
+        []
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Music Box Theatre - 239 W. 45th St., betw. 7th and 8th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$45",
+            "How": "Submit online form",
+            "Where": "rush.telecharge.com",
+            "Time": "The lottery will open at 12 AM on the day before the performance closing at 3 PM the day before the performance. Winners are drawn at 10:00 AM and 3:00 PM",
+            "Payment Method": "Credit card",
+            "Id": "Credit card used for purchase",
+            "Tickets Per Person": "Limit 2",
+            "Seating Locations": "Seats may be located in any section of the theater. While every effort will be made to seat pairs together with a full view, there is a chance that pairs may be split up and that your seat may have a partial view of the stage.",
+            "Number Of Tickets Available": "Subject to daily availability",
+            "Special Policies": "Winners will be notified by email shortly after each drawing and have five hours to claim and purchase tickets online. Tickets will be emailed."
+          },
+          "links": [
+            {
+              "label": "rush.telecharge.com",
+              "url": "https://rush.telecharge.com/"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "00:00",
+              "label": "Lottery opens"
+            },
+            {
+              "kind": "offset",
+              "days": -1,
+              "time": "15:00",
+              "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "it-s-a-wonderful-life",
       "name": "It's a Wonderful Life",
       "week": [
         [],
-        [],
+        [
+          "19:30"
+        ],
         [
           "19:30"
         ],
@@ -1322,7 +1528,8 @@
           "19:30"
         ],
         [
-          "15:00"
+          "13:00",
+          "18:30"
         ]
       ],
       "scheduleNotes": [
@@ -1412,10 +1619,10 @@
       "id": "the-lion-king",
       "name": "The Lion King",
       "week": [
+        [],
         [
           "19:00"
         ],
-        [],
         [
           "19:00"
         ],
@@ -1487,7 +1694,9 @@
       "name": "The Lost Boys",
       "week": [
         [],
-        [],
+        [
+          "19:00"
+        ],
         [
           "14:00",
           "19:30"
@@ -1503,8 +1712,7 @@
           "20:00"
         ],
         [
-          "14:00",
-          "19:30"
+          "15:00"
         ]
       ],
       "scheduleNotes": [
@@ -1837,6 +2045,14 @@
       "id": "much-ado-about-nothing",
       "name": "Much Ado About Nothing",
       "week": [
+        [],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
         [
           "20:00"
         ],
@@ -1848,16 +2064,8 @@
           "20:00"
         ],
         [
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
-        [
-          "14:00",
-          "20:00"
-        ],
-        []
+          "15:00"
+        ]
       ],
       "scheduleNotes": [
         "",
@@ -1902,6 +2110,132 @@
               "days": -1,
               "time": "15:00",
               "label": "Lottery closes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "now-you-see-me-live",
+      "name": "Now You See Me Live",
+      "week": [
+        [],
+        [],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "11:00",
+          "15:00",
+          "19:30"
+        ],
+        [
+          "11:00",
+          "15:00"
+        ]
+      ],
+      "scheduleNotes": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "venue": "Al Hirschfeld Theatre - 302 W. 45th St. betw. 8th and 9th Ave.",
+      "policies": [
+        {
+          "name": "Digital Lottery",
+          "fields": {
+            "Price": "$42",
+            "How": "www.luckyseat.com/shows/nowyouseemelive-newyork-2026Oct",
+            "Time": "Drawings will be held each morning at 11AM",
+            "Payment Method": "Credit card online",
+            "Id": "Photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Subject to daily availability, may be partial view and pairs may be split up.",
+            "Number Of Lottery Tickets Available": "Determined at the discretion of the box office."
+          },
+          "links": [
+            {
+              "label": "www.luckyseat.com/shows/nowyouseemelive-newyork-2026Oct",
+              "url": "https://www.luckyseat.com/shows/nowyouseemelive-newyork-2026Oct"
+            }
+          ],
+          "rules": []
+        },
+        {
+          "name": "Digital Rush",
+          "fields": {
+            "Price": "$42",
+            "How": "Available through the TodayTix app",
+            "Where": "todaytix.com",
+            "Time": "9 AM",
+            "Payment Method": "Credit card",
+            "Id": "Valid photo ID",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to availability."
+          },
+          "links": [
+            {
+              "label": "todaytix.com",
+              "url": "https://www.todaytix.com/nyc/shows/48040-now-you-see-me-live?emc=eyJ2IjoxfQ"
+            }
+          ],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "09:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "Digital Rush opens"
+            }
+          ]
+        },
+        {
+          "name": "General Rush",
+          "fields": {
+            "Price": "$42",
+            "How": "Available on the day of the performance.",
+            "Where": "Al Hirschfeld Theatre box office",
+            "Time": "10 AM Monday-Saturday, 12 PM Sunday",
+            "Id": "N/A",
+            "Payment Method": "Cash or credit card",
+            "Tickets Per Person": "Limit 2",
+            "Seat Locations": "Determined at the discretion of the box office",
+            "Number Of Tickets Available": "Subject to daily availability."
+          },
+          "links": [],
+          "rules": [
+            {
+              "kind": "daily",
+              "time": "10:00",
+              "sunday": "12:00",
+              "weekdays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "label": "General Rush opens"
             }
           ]
         }
@@ -2240,8 +2574,7 @@
           "19:00"
         ],
         [
-          "14:00",
-          "20:00"
+          "14:00"
         ],
         [
           "15:00"
@@ -2953,25 +3286,27 @@
       "id": "wanted",
       "name": "Wanted",
       "week": [
-        [
-          "20:00"
-        ],
         [],
         [
+          "19:00"
+        ],
+        [
+          "14:00",
+          "19:30"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:30"
+        ],
+        [
           "14:00",
           "20:00"
         ],
         [
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
-        [
-          "14:00",
-          "20:00"
-        ],
-        []
+          "15:00"
+        ]
       ],
       "scheduleNotes": [
         "",
@@ -2980,7 +3315,7 @@
         "",
         "",
         "",
-        "OPENING"
+        ""
       ],
       "venue": "James Earl Jones Theatre - 138 W. 48th St., betw. 6th and 7th ave",
       "policies": [
