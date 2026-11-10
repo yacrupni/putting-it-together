@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T21:28:28.974762+00:00",
+  "updatedAt": "2026-11-10T18:42:03.678878+00:00",
   "sources": {
     "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
     "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
@@ -1440,9 +1440,7 @@
       "name": "Inter Alia",
       "week": [
         [],
-        [
-          "19:30"
-        ],
+        [],
         [
           "19:30"
         ],
