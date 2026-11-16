@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-15T17:48:39.545130+00:00",
+  "updatedAt": "2026-11-16T21:05:36.895840+00:00",
   "sources": {
     "schedule": "https://playbill.com/article/weekly-schedule-of-current-broadway-shows",
     "policies": "https://playbill.com/article/broadway-rush-lottery-and-standing-room-only-policies-com-116003"
   },
   "sourceWeek": [
-    "Mon. November 9",
-    "Tue. November 10",
-    "Wed. November 11",
-    "Thu. November 12",
-    "Fri. November 13",
-    "Sat. November 14",
-    "Sun. November 15"
+    "Mon. November 16",
+    "Tue. November 17",
+    "Wed. November 18",
+    "Thu. November 19",
+    "Fri. November 20",
+    "Sat. November 21",
+    "Sun. November 22"
   ],
   "durationMinutes": 180,
   "shows": [
@@ -234,8 +234,10 @@
       "name": "Blue Man Group",
       "week": [
         [],
+        [
+          "19:00"
+        ],
         [],
-        [],
         [
           "19:00"
         ],
@@ -243,10 +245,12 @@
           "19:00"
         ],
         [
-          "14:00",
-          "19:00"
+          "11:00",
+          "15:00",
+          "19:30"
         ],
         [
+          "11:00",
           "15:00"
         ]
       ],
@@ -579,24 +583,26 @@
       "name": "Downstate",
       "week": [
         [
-          "20:00"
+          "19:00"
         ],
         [
-          "20:00"
+          "19:00"
         ],
         [],
         [
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
           "14:00",
           "20:00"
         ],
         [
-          "20:00"
-        ],
-        [
-          "14:00",
-          "20:00"
-        ],
-        []
+          "13:00",
+          "18:30"
+        ]
       ],
       "scheduleNotes": [
         "",
@@ -605,7 +611,7 @@
         "",
         "",
         "",
-        "OPENING"
+        ""
       ],
       "venue": "Booth Theatre - 222 W. 45th St., betw. 7th and 8th Ave.",
       "policies": [
@@ -651,29 +657,27 @@
       "name": "The Fantasticks",
       "week": [
         [],
+        [],
         [
-          "20:00"
+          "14:00",
+          "19:00"
+        ],
+        [
+          "19:00"
+        ],
+        [
+          "19:00"
         ],
         [
           "14:00",
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
-        [
-          "14:00",
-          "20:00"
+          "19:00"
         ],
         [
           "14:00"
         ]
       ],
       "scheduleNotes": [
-        "",
+        "OPENING",
         "",
         "",
         "",
@@ -762,16 +766,17 @@
       "id": "galileo",
       "name": "Galileo",
       "week": [
+        [
+          "20:00"
+        ],
+        [
+          "20:00"
+        ],
+        [
+          "14:00",
+          "20:00"
+        ],
         [],
-        [
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
-        [
-          "20:00"
-        ],
         [
           "20:00"
         ],
@@ -1096,7 +1101,6 @@
           "19:00"
         ],
         [
-          "13:00",
           "19:00"
         ],
         [
@@ -1110,7 +1114,8 @@
           "19:00"
         ],
         [
-          "13:00"
+          "13:00",
+          "19:00"
         ]
       ],
       "scheduleNotes": [
@@ -1170,6 +1175,7 @@
           "19:00"
         ],
         [
+          "13:00",
           "19:00"
         ],
         [
@@ -1183,8 +1189,7 @@
           "20:00"
         ],
         [
-          "13:00",
-          "19:00"
+          "15:00"
         ]
       ],
       "scheduleNotes": [
@@ -1239,13 +1244,14 @@
       "id": "here-there-are-blueberries",
       "name": "Here There Are Blueberries",
       "week": [
-        [],
-        [],
         [
           "19:00"
         ],
+        [],
         [
-          "13:00",
+          "14:00"
+        ],
+        [
           "19:00"
         ],
         [
@@ -1260,7 +1266,7 @@
         ]
       ],
       "scheduleNotes": [
-        "OPENING",
+        "",
         "",
         "",
         "",
@@ -1439,8 +1445,12 @@
       "id": "inter-alia",
       "name": "Inter Alia",
       "week": [
-        [],
-        [],
+        [
+          "19:30"
+        ],
+        [
+          "19:30"
+        ],
         [
           "19:30"
         ],
@@ -1512,18 +1522,16 @@
         [
           "19:30"
         ],
+        [],
         [
-          "19:30"
+          "19:00"
         ],
         [
-          "19:30"
+          "19:00"
         ],
         [
-          "19:30"
-        ],
-        [
-          "14:00",
-          "19:30"
+          "13:00",
+          "19:00"
         ],
         [
           "13:00",
@@ -1533,7 +1541,7 @@
       "scheduleNotes": [
         "",
         "",
-        "",
+        "OPENING",
         "",
         "",
         "",
@@ -1696,7 +1704,6 @@
           "19:00"
         ],
         [
-          "14:00",
           "19:30"
         ],
         [
@@ -1710,7 +1717,7 @@
           "20:00"
         ],
         [
-          "15:00"
+          "14:00"
         ]
       ],
       "scheduleNotes": [
@@ -2045,17 +2052,17 @@
       "week": [
         [],
         [
-          "20:00"
+          "19:00"
         ],
         [
           "14:00",
-          "20:00"
+          "19:30"
         ],
         [
-          "20:00"
+          "18:30"
         ],
         [
-          "20:00"
+          "19:00"
         ],
         [
           "14:00",
@@ -2118,10 +2125,10 @@
       "name": "Now You See Me Live",
       "week": [
         [],
-        [],
         [
           "19:00"
         ],
+        [],
         [
           "19:00"
         ],
@@ -2572,7 +2579,8 @@
           "19:00"
         ],
         [
-          "14:00"
+          "14:00",
+          "20:00"
         ],
         [
           "15:00"
@@ -2987,81 +2995,6 @@
                 6
               ],
               "label": "General Rush opens"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "school-girls-or-the-african-mean-girls-play",
-      "name": "School Girls; Or, The African Mean Girls Play",
-      "week": [
-        [],
-        [
-          "19:00"
-        ],
-        [
-          "14:00",
-          "19:00"
-        ],
-        [
-          "19:00"
-        ],
-        [
-          "19:00"
-        ],
-        [
-          "14:00",
-          "19:00"
-        ],
-        [
-          "14:00"
-        ]
-      ],
-      "scheduleNotes": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "venue": "Samuel J. Friedman Theatre - 261 W. 47th St. betw. 7th & 8th Aves.",
-      "policies": [
-        {
-          "name": "Digital Rush",
-          "fields": {
-            "Price": "$49",
-            "How": "Available through the TodayTix app",
-            "Where": "todaytix.com",
-            "Time": "9 AM",
-            "Payment Method": "Credit card",
-            "Id": "Valid photo ID",
-            "Tickets Per Person": "Limit 2",
-            "Seat Locations": "Determined at the discretion of the box office",
-            "Number Of Tickets Available": "Subject to availability."
-          },
-          "links": [
-            {
-              "label": "todaytix.com",
-              "url": "https://www.todaytix.com/nyc/shows/46505-school-girls-or-the-african-mean-girls-play"
-            }
-          ],
-          "rules": [
-            {
-              "kind": "daily",
-              "time": "09:00",
-              "weekdays": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6
-              ],
-              "label": "Digital Rush opens"
             }
           ]
         }
